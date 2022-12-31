@@ -1,0 +1,28 @@
+version: '2'
+
+services:
+  apache:
+    image: geerlingguy/php-apache:latest
+   #Cada que se reinicien los servicios, se vuelva a levantar automaticamente
+    restart: always
+    container_name: apache2
+    ports:
+      - '80:80'
+    volumes:
+     #Volumen que se replica en el host y en el contenedor
+      - /home/nartikn/docker/Juan/requis/Web/Respaldo-Generador-Codigos:/var/www/html
+    links:
+      - db
+  db:
+   image: mysql:latest
+   restart: always
+   environment:
+     MYSQL_DATABASE: 'alta_codigos'
+     MYSQL_USER: 'ityoup'
+     MYSQL_PASSWORD: 'prueba'
+     MYSQL_ROOT_PASSWORD: 'prueba'
+   ports:
+    - '3306:3306'
+   volumes:
+   - /home/nartikn/docker/Juan/requis/Web/data:/var/lib/mysql
+
