@@ -47,6 +47,6 @@ para ver si los contenedores han sido conectados, usamos:
 
 `docker network inspect` y el nombre de la red que le pusimos más atrás.
 
-![](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQxOGQ0MDI0NmYwYTY0MjUwNmM1MDZlZTUyMTgwZDc4ZmE2NzdjOCZjdD1n/cQmRbaSsFuDVKbhpkc/giphy.gif)
 
 ## Saludos, se despide su amigo jc, cualquier duda: lizarraga.juan.1gv@gmail.com
