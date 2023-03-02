@@ -8,6 +8,10 @@ Por ejemplo, en este caso, tenemos la siguiente ruta:
 
 `/home/nartikn/docker/Juan/requis/Web/Respaldo-Generador-Codigos:/var/www/html`
 
+## Les dejo un ejemplo de los comandos que van a usar :)
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQxOGQ0MDI0NmYwYTY0MjUwNmM1MDZlZTUyMTgwZDc4ZmE2NzdjOCZjdD1n/cQmRbaSsFuDVKbhpkc/giphy.gif)
+
 
 Antes de los dos puntos, tenemos la ruta del host. Mientras que despues de ellos, la ruta del contedor, en este caso
 puse una ruta donde tenia guardados mis archivos web, y en el contenedor la tipica ruta que usa el servidor de apache.
@@ -47,6 +51,5 @@ para ver si los contenedores han sido conectados, usamos:
 
 `docker network inspect` y el nombre de la red que le pusimos más atrás.
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQxOGQ0MDI0NmYwYTY0MjUwNmM1MDZlZTUyMTgwZDc4ZmE2NzdjOCZjdD1n/cQmRbaSsFuDVKbhpkc/giphy.gif)
 
 ## Saludos, se despide su amigo jc, cualquier duda: lizarraga.juan.1gv@gmail.com
